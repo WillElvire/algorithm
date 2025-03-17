@@ -1,0 +1,12 @@
+{
+    "name": "checkpoint-algorithms-and-its-elements",
+    "version": "1.0.0",
+    "description": "Checkpoint Algorithms and its elements",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "author": "",
+    "license": "ISC"
+}

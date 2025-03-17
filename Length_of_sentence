@@ -1,0 +1,76 @@
+
+ALGORITHM Checkpoint Algorithms and its elements
+
+INPUT: A sentence
+OUTPUT: The length of the sentence, the number of words in the sentence, and the number of vowels in the sentence
+
+BEGIN
+    SET length = 0
+    SET number_of_words = 0
+    SET number_of_vowels = 0
+    FOR EACH character IN sentence
+        SET length = length + 1
+        IF character = " "
+            SET number_of_words = number_of_words + 1
+        END IF
+        IF character = "."
+            SET number_of_words = number_of_words + 1
+        END IF
+        IF character = ","
+            SET number_of_words = number_of_words + 1
+        END IF
+        IF character = "!"
+            SET number_of_words = number_of_words + 1
+        END IF
+        IF character = "?"
+            SET number_of_words = number_of_words + 1
+        END IF
+        IF character = ":"
+            SET number_of_words = number_of_words + 1
+        END IF
+        IF character = ";"
+            SET number_of_words = number_of_words + 1
+        END IF
+        IF character = "("
+            SET number_of_words = number_of_words + 1
+        END IF
+        IF character = "a"
+            SET number_of_vowels = number_of_vowels + 1
+        END IF
+        IF character = "e"
+            SET number_of_vowels = number_of_vowels + 1
+        END IF
+        IF character = "i"
+            SET number_of_vowels = number_of_vowels + 1
+        END IF
+        IF character = "o"
+            SET number_of_vowels = number_of_vowels + 1
+        END IF
+        IF character = "u"
+            SET number_of_vowels = number_of_vowels + 1
+        END IF
+        IF character = "y"
+            SET number_of_vowels = number_of_vowels + 1
+        END IF
+        IF character = "A"
+            SET number_of_vowels = number_of_vowels + 1
+        END IF
+        IF character = "E"
+            SET number_of_vowels = number_of_vowels + 1
+        END IF
+        IF character = "I"
+            SET number_of_vowels = number_of_vowels + 1
+        END IF
+        IF character = "O"
+            SET number_of_vowels = number_of_vowels + 1
+        END IF
+        IF character = "U"
+            SET number_of_vowels = number_of_vowels + 1
+        END IF
+        IF character = "Y"
+            SET number_of_vowels = number_of_vowels + 1
+        END IF
+    END FOR
+    RETURN length, number_of_words, number_of_vowels
+END
+
